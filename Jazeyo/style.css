@@ -1,0 +1,206 @@
+/* GENERAL CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 4.8rem;
+    color: goldenrod;
+}
+
+h3 {
+    font-size: 3rem;
+    font-family: pacifico;
+    font-style: italic;
+    color: beige;
+    font-weight: 500;
+}
+
+h4, h5 {
+    font-size: 2.8rem;
+}
+
+li {
+    font-size: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+#title-article {
+    padding-top: 60px;
+}
+
+#main-head {
+    background: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 60rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    width: auto;
+    height: 40px;
+    flex: 1 1 40rem;
+    display: inline;
+    font-family: 'Megrim', cursive;
+    color: white;
+    padding-right: 200px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+header {
+    background-color: black;
+    height: 40px;
+}
+
+nav a:hover { 
+    color: goldenrod;
+}
+
+body {
+    font-family: Tahoma;
+}
+
+/* HERO */
+
+.hero { 
+    min-height: 100vh;
+    background: linear-gradient(rgb(0,0,0,0.4), transparent), url("img/imgfond.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h3 { 
+    padding: 4rem;
+}
+
+.hero a { 
+    padding: 2rem 6rem;
+    background-color: goldenrod;
+    color: black;
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: solid black 4px;
+}
+
+button:hover {
+    background-color: transparent;
+    color: goldenrod;
+}
+
+/* FOOTER */
+
+#footer {
+    height: 30px;
+    background-color: black;
+    display: flex;
+    font-family: Tahoma;
+    font-size: 12pt;
+    justify-content: center;
+}
+
+#footer a { 
+    padding: 0 40px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover { 
+    color: goldenrod;
+}
+
+/* COLLECTIONS */
+
+#title-collections {
+    padding-top: 100px ;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Pacifico;
+    font-weight: 500;
+    font-size: 30pt;
+}
+
+.collection-photo a {
+    color: black;
+    font-size: 20pt;
+    justify-content: space-between 400px;
+}
+
+/* div collections */
+
+
+
+#collection-page div {
+    justify-content: center;
+    display: flex;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+#collection-page a {
+    text-decoration: none;
+    color: black;
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+.collection-photo {
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+.collection-photo img {
+    border: solid black 4px;
+}
+
+.collection-photo img:hover {
+    border: solid black 12px;
+}
+
+#article-collection {
+    padding-bottom: 100px;
+}
