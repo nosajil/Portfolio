@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immo Tech'</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Nothing+You+Could+Do&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .tech {
+            font-family: 'Share Tech Mono', monospace;
+        }
+        .brand-logo {
+            font-family: 'Nothing You Could Do', cursive;
+        }
+        h1, h2, h3, h4, h5 {
+            font-family: 'Julius Sans One', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar-fixed">
+    <nav class="nav-wraper indigo darken">
+        <div class="container">
+            <a href="#caroussel" class="brand-logo">Immo <span class="tech">Tech'</span></a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down ">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#maison">Nos maisons</a></li>
+                <li><a href="#appartement">Nos appartements</a></li>
+                <li><a href="#contact">Contactez-nous</a></li>
+                <li><a href="#">Favoris</a></li>
+                <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Follow us on Instagram">
+                    <i class="fab fa-instagram"></i>
+                  </a></li>
+                  <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Follow us on Facebook">
+                    <i class="fab fa-facebook"></i>
+                  </a></li>
+                  <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Follow us on Twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<ul class="sidenav" id="mobile-links">
+    <li><a href="#">Accueil</a></li>
+    <li><a href="#">Nos maisons</a></li>
+    <li><a href="#">Nos appartements</a></li>
+    <li><a href="#">Favoris</a></li>
+    <li><a href="#contact">Contactez-nous</a></li>
+    <li><a href="#">Se connecter</a></li>
+</ul>
+<div class="carousel carousel-slider center" id="caroussel">
+    <div class="carousel-fixed-item center">
+        <a class="btn waves-effect white grey-text darken-text-2">Découvrir</a>
+    </div>
+    <a class="carousel-item" href="#"><img src="img/caroussel3.jpg"></a>
+    <a class="carousel-item" href="#"><img src="img/caroussel2.jpg"></a>
+    <a class="carousel-item" href="#"><img src="img/caroussel1.jpg"></a>
+    <a class="carousel-item" href="#"><img src="img/caroussel4.jpg"></a>
+  </div>
+    <div class="row">
+        <div class="col s12">
+            <h1 class="center">Nos biens</h1>
+            <h3 class="col s12 l4 push-l1 scrollspy" id="maison">Nos Maisons</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6 l3 push-l1">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/maison1.jpg" alt="" srcset="">
+                    <a href="#" class="halfway-fab btn-floating red pulse">
+                        <i class="material-icons">favorite</i>
+                    </a>
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Maison de maître 6 pièces 370 m²</span>
+                    <p>Magnifique maison de maître en grande partie rénovée en 2020, avec cachet préservé, à deux pas du métro Alsace, située à l'entrée du quartier Tourcoing Fresnoy et de la plaine image.</p>
+                    <br>
+                    <p class="grey-text right">Tourcoing, 59200</p>  
+                    <br>                
+                </div>
+                <div class="card-action">
+                    <a href="#">Détails</a>
+                    <a href="#">Contactez-nous</a>
+                    <a class="right black-text ">595.000 €</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4 push-l1">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/maison2.jpg" alt="" srcset="">
+                    <a href="#" class="halfway-fab btn-floating red pulse">
+                        <i class="material-icons">favorite</i>
+                    </a>
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Somptueuse Maison 10 pièces 590 m²</span>
+                    <p>Ce bien signé par l'architecte Maillard développe sur sa partie habitation principale environ 350 m² composé d'un majestueux hall d'entrée desservant pièces de réception traversantes de 70 m² avec cachet conservé, salle à manger, cuisine équipée BULTHAUP avec espace repas, buanderie et chambre ou bureau. A l'étage nous retrouvons 4 spacieuses chambres dont un domaine parents, sddouches, dressing.</p>
+                    <br>
+                    <p class="grey-text right">Roubaix, 59100</p>  
+                    <br>
+                </div>
+                <div class="card-action">
+                    <a href="#">Détails</a>
+                    <a href="#">Contactez-nous</a>
+                    <a class="right black-text ">1.295.000 €</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3 push-l1">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/maison3.jpg" alt="" srcset="">
+                    <a href="#" class="halfway-fab btn-floating red pulse">
+                        <i class="material-icons">favorite</i>
+                    </a>
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Villa Lumineuse 5 pièces 174 m²</span>
+                    <p>Située au Golf de Mérignies, très belle villa contemporaine de 2021 aux très belles prestations qui vous séduira par son volume, sa modernité et sa luminosité. Elle se compose d'une vaste pièce à vivre de 60m² offrant salon avec parquet et poêle à bois moderne, salle à manger et grande cuisine équipée, le tout donnant sur de grandes baies.</p>
+                    <br>
+                    <p class="grey-text right">Mérignies, 59320</p>  
+                    <br>
+                </div>
+                <div class="card-action">
+                    <a href="#">Détails</a>
+                    <a href="#">Contactez-nous</a>
+                    <a class="right black-text ">795.000 €</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6 l3 push-l1">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/maison4.jpg" alt="" srcset="">
+                    <a href="#" class="halfway-fab btn-floating red pulse">
+                        <i class="material-icons">favorite</i>
+                    </a>
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Maison lumineuse 6 pièces 168 m²</span>
+                    <p>Elle se compose d'une agréable entrée, d'une cuisine haut gamme avec espace repas donnant sur un très lumineux salon séjour avec cheminée feu de bois.
+                        Le RDC vous offre un espace nuit avec chambre, dressing et salle de douche.
+                        Un palier de 15 m² en parquet chevron pouvant servir de salle de jeux ou bureau distribue 4 belles chambres</p>
+                    <br>
+                    <p class="grey-text right">Lomme, 59510</p>  
+                    <br>
+                    </div>
+                <div class="card-action">
+                    <a href="#">Détails</a>
+                    <a href="#">Contactez-nous</a>
+                    <a class="right black-text ">595.000€</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4 push-l1">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/maison5.jpg" alt="" srcset="">
+                    <a href="#" class="halfway-fab btn-floating red pulse">
+                        <i class="material-icons">favorite</i>
+                    </a>
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Villa de luxe et haut de gamme 350m²</span>
+                    <p>La villa Mura est située au centre bourg de Neuvic , petite ville de haute Corrèze.
+                        A proximité de toutes commodités à pieds
+                        Idéal pour un séjour détente au grand air en plaine nature à la campagne
+                        
+                        C.est une immense bâtisse bourgeoise ,
+                        
+                        A mi chemin entre l’ancien et le design , la décoration de la Villa Mura a été entièrement repensée afin que votre séjour soit des plus agréables.</p>
+                    <br>
+                    <p class="grey-text right">Neuvic, 19160</p>  
+                    <br>
+                    </div>
+                <div class="card-action">
+                    <a href="#">Détails</a>
+                    <a href="#">Contactez-nous</a>
+                    <a class="right black-text ">1.595.000€</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3 push-l1">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/maison6.jpg" alt="" srcset="">
+                    <a href="#" class="halfway-fab btn-floating red pulse">
+                        <i class="material-icons">favorite</i>
+                    </a>
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Maison de luxe avec vue mer 5 chambres et piscine 300m²</span>
+                    <p>Grande maison 5 chambres avec piscine et vue mer panoramique entièrement rénovée récemment. A Sainte Maxime, dans le secteur recherché de la Vierge Noire, juste au-dessus des plages de la Nartelle (accès à la plage à pieds : 10 min / en voiture : 1 à 2 min).</p>
+                    <br>
+                    <p class="grey-text right">St Maxime, 83115</p>  
+                    <br>
+                </div>
+                <div class="card-action">
+                    <a href="#">Détails</a>
+                    <a href="#">Contactez-nous</a>
+                    <a class="right black-text ">595.000€</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+          <img src="img/parallax3.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col s12">
+        <p class="white-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam ipsum, inventore maxime officia veniam ullam, nemo repellat temporibus saepe adipisci ducimus possimus sed quae, consequuntur aliquam dolorum. Neque, architecto culpa.</p>
+        <h3 class="col s12 l4 push-l7 scrollspy" id="appartement">Nos Appartements</h3>
+        <p class="white-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam ipsum, inventore maxime officia veniam ullam, nemo repellat temporibus saepe adipisci ducimus possimus sed quae, consequuntur aliquam dolorum. Neque, architecto culpa.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col s12 m6 l3 push-l1">
+        <div class="card">
+            <div class="card-image">
+                <img src="img/appartement1.jpg" alt="" srcset="">
+                <a href="#" class="halfway-fab btn-floating red pulse">
+                    <i class="material-icons">favorite</i>
+                </a>
+            </div>
+            <div class="card-content">
+                <span class="card-title">Appartement centre de Nantes 200m²</span>
+                <p>A Nantes, au calme, découvrez ce bel appartement de 4 pièces avec un très grand jardin.
+                T4 de 200 m² avec une jolie pièce de vie ouvrant sur la terrasse et le jardin bien exposés (près de 200m2), une suite parentale avec dressing et salle d'eau privative, 2 autres chambres avec un grand placard, une salle de bains et un wc indépendant.
+                Toutes les pièces donnent sur le jardin.</p>
+                <br>
+                <p class="grey-text right">St Maxime, 83115</p>  
+                <br>
+            </div>
+            <div class="card-action">
+                <a href="#">Détails</a>
+                <a href="#">Contactez-nous</a>
+                <a class="right black-text ">895.000€</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m6 l4 push-l1">
+        <div class="card">
+            <div class="card-image">
+                <img src="img/appartement2.jpg" alt="" srcset="">
+                <a href="#" class="halfway-fab btn-floating red pulse">
+                    <i class="material-icons">favorite</i>
+                </a>
+            </div>
+            <div class="card-content">
+                <span class="card-title">Magnifique duplex 5 chambres 165 m²</span>
+                <p>Aux portes de Toulouse, à Balma, découvrez cet appartement T4 avec 2 terrasses et 2 places de parking.
+                Ce bel appartement dispose d'une pièce de vie lumineuse et ouvrant sur une première terrasse sans vis à vis et vue arborée.
+                L'étage est composé de 3 chambres dont une ouvrant sur la seconde terrasse, une grande salle de bains et une salle d'eau avec fenêtre.
+                2 wc indépendants (1 à chaque niveau).</p>
+                <br>
+                <p class="grey-text right">La Madeleine, 59160</p>  
+                <br>
+            </div>
+            <div class="card-action">
+                <a href="#">Détails</a>
+                <a href="#">Contactez-nous</a>
+                <a class="right black-text ">645.000€</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m6 l3 push-l1">
+        <div class="card">
+            <div class="card-image">
+                <img src="img/appartement3.jpg" alt="" srcset="">
+                <a href="#" class="halfway-fab btn-floating red pulse">
+                    <i class="material-icons">favorite</i>
+                </a>
+            </div>
+            <div class="card-content">
+                <span class="card-title">Appartement 180m² style Art Déco</span>
+                <p>Appartement quartier Porte de Versailles, sectorisé Lycée Michelet. Appartement de 180 m² loi Carrez + 8 m² en jouissance exclusive, soit une surface totale de 70,2 m².
+                Traversant, double séjour de 28,5 m2, cuisine séparée, salle de bain avec baignoire, WC séparés, grande chambre avec dressing, chambre d’enfant / bureau, grande cave.</p>
+                <br>
+                <p class="grey-text right">Versailles, 75016</p>  
+                <br>
+            </div>
+            <div class="card-action">
+                <a href="#">Détails</a>
+                <a href="#">Contactez-nous</a>
+                <a class="right black-text ">2.010.000€</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col s12 m6 l3 push-l1">
+        <div class="card">
+            <div class="card-image">
+                <img src="img/appartement4.jpg" alt="" srcset="">
+                <a href="#" class="halfway-fab btn-floating red pulse">
+                    <i class="material-icons">favorite</i>
+                </a>
+            </div>
+            <div class="card-content">
+                <span class="card-title">Appartement - 6 pièces - BONAPARTE L'ART DECO</span>
+                <p>Un havre de sérénité au cœur du Grand Paris !
+                    Acheter à Colombes, c’est miser sur une adresse d’avenir, à 6 km des portes de Paris. La commune est très bien desservie que ce soit par les transports en commun ou les accès routiers.
+                    La résidence, d’architecture Art déco, dispose d’intérieurs aux espaces bien pensés et bien agencés, pour vivre confortablement ainsi que de balcons, terrasses (dont toitures terrasses végétalisées) et jardins privatifs.</p>
+                <br>
+                <p class="grey-text right">Colombes, 75016</p>  
+                <br>
+                </div>
+            
+            <div class="card-action">
+                <a href="#">Détails</a>
+                <a href="#">Contactez-nous</a>
+                <a class="right black-text ">795.000€</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m6 l4 push-l1">
+        <div class="card">
+            <div class="card-image">
+                <img src="img/appartement5.jpg" alt="" srcset="">
+                <a href="#" class="halfway-fab btn-floating red pulse">
+                    <i class="material-icons">favorite</i>
+                </a>
+            </div>
+            <div class="card-content">
+                <span class="card-title">Appartement - 4 pièces - Lohitzalde</span>
+                <p>Découvrez notre résidence « Lohitzalde » à Socoa (Urrugne), composée de 6 appartements T4 dotés de terrasses ou de balcons. La résidence est composée de 6 logements. Chaque logement est doté d’un extérieur privatif pour le confort de ses occupants.
+                - Appartements T4 au cœur du quartier prestigieux Socoa et bénéficiant d’espace extérieur.</p>
+                <br>
+                <p class="grey-text right"> Socoa, 64500</p>  
+                <br>
+            </div>
+            <div class="card-action">
+                <a href="#">Détails</a>
+                <a href="#">Contactez-nous</a>
+                <a class="right black-text ">615.000€</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m6 l3 push-l1">
+        <div class="card">
+            <div class="card-image">
+                <img src="img/appartement6.jpg" alt="" srcset="">
+                <a href="#" class="halfway-fab btn-floating red pulse">
+                    <i class="material-icons">favorite</i>
+                </a>
+            </div>
+            <div class="card-content">
+                <span class="card-title">Appartement 6 pièces 153 m²</span>
+                <p>DANS IMMEUBLE ART DECO,
+                    APPARTEMENT TRAVERSANT DE 144M2,
+                    CUISINE OUVERTE SUR LE SEJOUR DE 60M2
+                    DONNANT SUR BALCON DE 10M2 PLEIN SUD ,
+                    4 CHAMBRES, NOMBREUX DRESSINGS, SALLE DE BAINS, SALLE D EAU, DEUX WC
+                    VUE DEGAGEE, CALME ET ENSOLEILLE
+                    POSSIBILITE PARKING</p>
+                <br>
+                <p class="grey-text right">Boulogne-Billancourt, 92100</p>  
+                <br>
+            </div>
+            <div class="card-action">
+                <a href="#">Détails</a>
+                <a href="#">Contactez-nous</a>
+                <a class="right black-text ">845.000€</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="parallax-container">
+    <div class="parallax">
+      <img src="img/parallax4.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+    <!-- contact form -->
+    <section class="section container scrollspy" id="contact"></section>
+    <div class="row">
+      <div class="col s12 l5 push-l1">
+        <h2 class="indigo-text text-darken-4">Vous avez un projet ? Prenez rendez-vous !</h2>
+        <p>Vous recherchez un bien avec des critères précis ? Nos agents seront écouter vos demandes et vous dénicher votre nouveaux chez-vous !</p>
+        <p>Vous vendez un bien et vous désirez une estimation, nous proposons ce service gratuitement dans toute la France.</p>
+        <p>Une demande particulière, investissement, viager... Nos professionnelles seront répondres à vos questions de la meilleures des manières. Prenez rendez-vous maintenant sur notre site !</p>
+      </div>
+      <div class="col s12 l4 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Votre Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea id="message" class="materialize-textarea"></textarea>
+            <label for="message">Votre Message</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">date_range</i>
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Choisissez une date...</label>
+          </div>
+          <div class="input-field">
+            <p>Services demandés</p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Estimation</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Recherche de bien</span>
+              </label>
+            </p>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </div>
+     <!-- footer -->
+<footer class="page-footer #f44336 red">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l5">
+          <h5>A Propos</h5>
+          <p>Immo Tech' est depuis 2018 un des leader du marché de vente de bien d'exceptions. Vous cherchez un appartement ou une maison exceptionnelle et vous avez fais le tour du site Leboncoin et ses concurents. Votre projet se trouve certainement chez nous !</p>
+          <p>Nous accompagnons les investisseurs dans leurs placements immobiliers sur des villas destiné à la location. Estimation de rente locative et business plan complet et détaillé disponible pour chacun de nos biens.</p>
+        </div>
+        <div class="col s12 l3">
+          <h5>Rejoignez-nous</h5>
+          <ul>
+            <li><a href="" class="grey-text text-lighten-3">Facebook</a></li>
+            <li><a href="" class="grey-text text-lighten-3">Twitter</a></li>
+            <li><a href="" class="grey-text text-lighten-3">Linked In</a></li>
+            <li><a href="" class="grey-text text-lighten-3">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col s12 l4">
+            <h5>Contact</h5>
+            <p>
+                Adresse: 165 avenue de Bretagne, Lomme 59350
+                <br>
+                Téléphone: 06 33 33 10 12
+                <br>
+            </p>
+            <h5>Heures d'ouvertures</h5>
+            <p>
+                Lundi: 8h30 - 19h
+                <br>
+                Mardi: 14h - 19h
+                <br>
+                Mercredi: 10h - 16h
+                <br>
+                Jeudi : 9h - 19h
+                <br>
+                Vendredi : 9h - 12h
+                <br>
+                Samedi 13h - 23h
+                <br>
+                Dimanche 13h - 18h
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright indigo darken">
+      <div class="container center-align">&copy; 2018 Immo Tech'</div>
+    </div>
+  </footer>
+    <script>var instance = M.Carousel.getInstance(elem); </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true,
+                indicators: true
+            });
+            $('.parallax').parallax();
+            $('.datepicker').datepicker({
+            disableWeekends: true
+            });
+            $('.scrollspy').scrollSpy();
+
+    });
+    </script>
+</body>
+</html>
